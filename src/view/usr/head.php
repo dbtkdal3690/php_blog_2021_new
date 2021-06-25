@@ -56,7 +56,7 @@ $loginedMember = $_REQUEST['App__loginedMember'];
         <div class="container mx-auto h-full flex">
             <a href="/" class="top-bar__logo px-5 flex items-center">
                 <span><i class="fas fa-lemon"></i></span>
-                <span class="ml-2 font-bold hidden sm:inline">LEMON BLOG</span>
+                <span class="ml-2 font-bold hidden sm:inline">상미 BLOG</span>
             </a>
 
             <div class="flex-grow"></div>
