@@ -27,7 +27,7 @@ $meta['siteDomain'] = $prodSiteDomain;
 $meta['siteMainUrl'] = "https://{$prodSiteDomain}";
 
 if ( !isset($meta['siteMetaImgUrl']) ) {
-  $meta['siteMetaImgUrl'] = "/resource/img/logo/logo_meta.jpg";
+  $meta['siteMetaImgUrl'] = "/resource/img/logo/logo_meta.png";
 }
 ?>
 

@@ -34,5 +34,6 @@ html > body, html > body .tui-editor-contents {
 }
 
 .top-bar, .bottom-bar {
-  background-color:#FFDC3C;
+  background-color:#FEE715;
+  color:#404850;
 }
