@@ -5,18 +5,18 @@ if ( !isset($meta) ) {
 
 $meta['siteName'] = "상미 BLOG";
 $meta['siteCanonicalUrl'] = $_SERVER['REQUEST_URI'];
-$meta['siteKeywords'] = "IT, Java, PHP, HTML, CSS, Javascript, MySQL, Linux";
+$meta['siteKeywords'] = "IT, Java, PHP, HTML, CSS, Javascript, VUE, IONIC, MySQL, Linux";
 
 if ( !isset($meta['pageGenDate']) ) {
   $meta['pageGenDate'] = date("Y-m-d") . 'T' . date("H:i:s") . 'Z';
 }
 
 if ( !isset($meta['siteSubject']) ) {
-  $meta['siteSubject'] = "IT 전문 블로그 플랫폼, 상미";
+  $meta['siteSubject'] = "IT 전문 블로그 상미 블로그";
 }
 
 if ( !isset($meta['siteDescription']) ) {
-  $meta['siteDescription'] = "IT 전문 블로그 플랫폼, 상미 입니다. 누구나 멋진 나만의 IT 블로그를 만들 수 있습니다.";
+  $meta['siteDescription'] = "IT 전문 블로그 입니다.";
 }
 
 if ( !isset($meta['og:title']) ) {
@@ -25,7 +25,10 @@ if ( !isset($meta['og:title']) ) {
 
 $meta['siteDomain'] = $prodSiteDomain;
 $meta['siteMainUrl'] = "https://{$prodSiteDomain}";
-$meta['siteMetaImgUrl'] = "/resource/img/logo/logo_meta.png";
+
+if ( !isset($meta['siteMetaImgUrl']) ) {
+  $meta['siteMetaImgUrl'] = "/resource/img/logo/logo_meta.jpg";
+}
 ?>
 
 <meta name="apple-mobile-web-app-title" content="<?=$meta['siteName']?>" />
